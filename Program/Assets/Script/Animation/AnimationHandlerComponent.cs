@@ -19,13 +19,8 @@ public class AnimationHandlerComponent : MonoBehaviour
 
     public void OnDisable()
     {
-        StartCoroutine(DelayAction(() =>
-        {
+        if (AnimationHandler.instance != null)
             AnimationHandler.instance.OnAnimationPlay -= Play;
-        }));
-
-       
-
     }
     public void Play(TableDataItem data)
     {
