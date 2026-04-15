@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f8dd98b42ddae3d4980b66c328ebaf82
+timeCreated: 1476565970
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Materials/microwave_glass.mat
+  uploadId: 198961

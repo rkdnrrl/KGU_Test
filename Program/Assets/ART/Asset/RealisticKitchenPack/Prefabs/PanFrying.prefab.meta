@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0367fb349569c204cbb60ad116d4121a
+timeCreated: 1476388387
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Prefabs/PanFrying.prefab
+  uploadId: 198961

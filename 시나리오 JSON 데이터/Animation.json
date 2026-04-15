@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "AnimID": "ANIM_OLDMAN_LYING",
+      "CharacterID": "OLDMAN",
+      "ClipName": "LYING",
+      "AnimatorState": "Base.Idle",
+      "BlendTime": 0.2,
+      "Speed": 1,
+      "Loop": true
+    },
+    {
+      "AnimID": "ANIM_OLDMAN_STAND_IDLE",
+      "CharacterID": "OLDMAN",
+      "ClipName": "STAND_IDLE",
+      "AnimatorState": "Base.Idle",
+      "BlendTime": 0.2,
+      "Speed": 1,
+      "Loop": true
+    },
+    {
+      "AnimID": "ANIM_OLDMAN_SIT",
+      "CharacterID": "OLDMAN",
+      "ClipName": "SIT",
+      "AnimatorState": "Base.Surprise",
+      "BlendTime": 1,
+      "Speed": 0.25,
+      "Loop": false
+    },
+    {
+      "AnimID": "ANIM_OLDMAN_EAT",
+      "CharacterID": "OLDMAN",
+      "ClipName": "EAT",
+      "AnimatorState": "Base.Surprise",
+      "BlendTime": 1,
+      "Speed": 0.25,
+      "Loop": false
+    },
+    {
+      "AnimID": "ANIM_OLDMAN_SIT2",
+      "CharacterID": "OLDMAN",
+      "ClipName": "SIT2",
+      "AnimatorState": "Base.Surprise",
+      "BlendTime": 1,
+      "Speed": 0.25,
+      "Loop": false
+    },
+    {
+      "AnimID": "ANIM_OLDMAN_WASH1",
+      "CharacterID": "OLDMAN",
+      "ClipName": "WASH1",
+      "AnimatorState": "Base.Surprise",
+      "BlendTime": 1,
+      "Speed": 0.25,
+      "Loop": false
+    },
+    {
+      "AnimID": "ANIM_BOTTLE_POUR",
+      "CharacterID": "BOTTLE",
+      "ClipName": "POUR",
+      "AnimatorState": "Base.Surprise",
+      "BlendTime": 1,
+      "Speed": 0.25,
+      "Loop": false
+    }
+  ]
+}

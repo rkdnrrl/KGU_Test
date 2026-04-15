@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 777e36ad0b5e51340a03073c00fc284b
+timeCreated: 1477082341
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Materials/StandardDualSided.shader
+  uploadId: 198961

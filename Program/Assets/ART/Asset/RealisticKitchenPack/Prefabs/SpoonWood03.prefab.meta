@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 224f54c539ae4c044b52113adc4eb765
+timeCreated: 1477001390
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Prefabs/SpoonWood03.prefab
+  uploadId: 198961

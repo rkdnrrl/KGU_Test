@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a40bfe7c39c8e5c4da12c207e3f0924c
+timeCreated: 1477071845
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Prefabs/JarGlass.prefab
+  uploadId: 198961

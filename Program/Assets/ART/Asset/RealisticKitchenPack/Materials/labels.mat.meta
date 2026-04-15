@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 04deecf4cd030704a82bd92ec5a0b439
+timeCreated: 1477081043
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Materials/labels.mat
+  uploadId: 198961

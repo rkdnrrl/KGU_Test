@@ -1,0 +1,508 @@
+{
+  "items": [
+    {
+      "TextID": "TXT_NARRATION_1",
+      "Speaker": "Narration",
+      "Content": "이 시나리오는 요양보호사가 어르신의 일상생활을 지원하며, 스스로 할 수 있는 기능은 유지시키고 도움이 필요한 부분은 안전하게 보조하는 과정을 담고 있습니다. 식사 준비부터 화장실 이용, 손 씻기, 세면과 양치까지 일상 동작 하나하나에 담긴 의학적, 기능적 의미를 설명하며, 어르신의 자립을 돕는 실제 돌봄 상황을 재현합니다. 실습을 시작하겠습니다. 어르신의 선택권을 존중해 인지 기능과 자립감을 유지하도록 합니다",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_1",
+      "Speaker": "Me",
+      "Content": "안녕하세요, 어르신! 지금부터 저와 함께 점심 식사를 준비해 볼까요? 아니면 화장실 다녀오실까요?",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_1",
+      "Speaker": "OldMan",
+      "Content": "점심 먹을 시간인가요? 제가 직접 밥을 떠먹을 수 있을까요?",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_2",
+      "Speaker": "Narration",
+      "Content": "일상적인 동작 훈련으로 상지 근력과 미세운동능력을 유지하도록 합니다.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_2",
+      "Speaker": "Me",
+      "Content": "네, 그럼요! 어르신이 직접 밥을 떠먹을 수 있도록 제가 도와드릴게요. 식판이랑 숟가락은 제가 준비할 테니, 어르신은 컵에 물을 따라주시겠어요?",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_3",
+      "Speaker": "Me",
+      "Content": "물병, 물컵 전달하기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_2",
+      "Speaker": "OldMan",
+      "Content": "제가요? 네, 해볼게요.",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_3",
+      "Speaker": "Narration",
+      "Content": "스스로 식사하도록 유도해 근력, 연하 기능을 안정적으로 유지하도록 합니다.",
+      "TypingSpeed": "",
+      "Voice": "",
+      "Emotion": ""
+    },
+    {
+      "TextID": "TXT_ME_4",
+      "Speaker": "Me",
+      "Content": "와, 물 정말 잘 따르셨네요! 이제 직접 밥을 떠서 드셔보세요. 제가 옆에서 지켜볼게요. 혹시 필요하면 언제든 말씀하시고요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_5",
+      "Speaker": "Me",
+      "Content": "식판, 숟가락, 포크 전달하기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_3",
+      "Speaker": "OldMan",
+      "Content": "숟가락으로 식사하는 모습",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_4",
+      "Speaker": "OldMan",
+      "Content": "침대 끝에 걸터앉기",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_4",
+      "Speaker": "Narration",
+      "Content": "식후에는 배뇨와 배변을 유도해 변비와 요실금을 예방하고, 기립성 어지럼을 고려해 안전한 이동을 돕습니다.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_6",
+      "Speaker": "Me",
+      "Content": "식사하셨으니 화장실 다녀오시겠어요? 제가 화장실까지 부축해 드릴게요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_5",
+      "Speaker": "OldMan",
+      "Content": "네, 화장실에 갈게요.",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_7",
+      "Speaker": "Me",
+      "Content": "대상자가 일어설 수 있게 부축하기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_5",
+      "Speaker": "Narration",
+      "Content": "안내 가이드: 부축한 손을 바로 떼지 말고 어르신이 일어날 때까지 천천히 손으로 부축해 주세요.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_NARRATION_6",
+      "Speaker": "Narration",
+      "Content": "화장실로 이동하기",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_NARRATION_7",
+      "Speaker": "Narration",
+      "Content": "낙상 위험이 높은 화장실에서 안전바 사용은 필수 보호 요소입니다.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_8",
+      "Speaker": "Me",
+      "Content": "변기 옆 안전바 안내하기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_6",
+      "Speaker": "OldMan",
+      "Content": "변기는 제가 혼자 앉을 수 있어요.",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_9",
+      "Speaker": "Me",
+      "Content": "네, 그럼요. 혼자 하실 수 있어요. 여기 안전바가 있으니 잡고 사용하시면 더 안전할 거예요. 필요하시면 말씀하시고요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_7",
+      "Speaker": "OldMan",
+      "Content": "대상자 스스로 안전바 사용하면서 배뇨 및 배변하는 모습",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_8",
+      "Speaker": "OldMan",
+      "Content": "세면대 앞에 서기",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_8",
+      "Speaker": "Narration",
+      "Content": "올바른 손 씻기는 노인의 감염 위험을 크게 줄이는 핵심 위생입니다.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_10",
+      "Speaker": "Me",
+      "Content": "이제 비누로 깨끗하게 손을 씻어볼까요? 제가 물 틀어드릴게요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_9",
+      "Speaker": "Narration",
+      "Content": "관절과 근력 저하를 고려해 뜨거운 물사고와 미끄럼을 예방합니다.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_11",
+      "Speaker": "Me",
+      "Content": "물 틀기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_9",
+      "Speaker": "OldMan",
+      "Content": "물과 비누로 손 씻는 모습",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_12",
+      "Speaker": "Me",
+      "Content": "물 잠그기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_10",
+      "Speaker": "Narration",
+      "Content": "(화면 off & on 후)",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_NARRATION_11",
+      "Speaker": "Narration",
+      "Content": "구강 위생은 폐렴 예방에 중요하며, 손 기능 유지에도 도움이 됩니다.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_13",
+      "Speaker": "Me",
+      "Content": "양치도 해볼까요? 어르신이 직접 칫솔을 잡고 양치해 보시는 건 어떠세요? 제가 도와드릴게요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_14",
+      "Speaker": "Me",
+      "Content": "양치컵 건네기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_15",
+      "Speaker": "Me",
+      "Content": "칫솔 건네기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_12",
+      "Speaker": "Narration",
+      "Content": "안내 가이드: 칫솔을 터치하세요.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_OLDMAN_10",
+      "Speaker": "OldMan",
+      "Content": "치약 좀 발라줘.",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_16",
+      "Speaker": "Me",
+      "Content": "칫솔에 치약 발라주기",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_13",
+      "Speaker": "Narration",
+      "Content": "안내 가이드: 치약을 터치하세요.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_OLDMAN_11",
+      "Speaker": "OldMan",
+      "Content": "양치하고 입 헹구는 모습",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_17",
+      "Speaker": "Me",
+      "Content": "다 되셨으면 새 옷 갈아입게 도와드릴게요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_14",
+      "Speaker": "Narration",
+      "Content": "방으로 이동하기",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_OLDMAN_12",
+      "Speaker": "OldMan",
+      "Content": "옷장 앞에 서기",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_18",
+      "Speaker": "Me",
+      "Content": "오늘 어떤 옷을 입으실까요? 어르신이 좋아하시는 옷으로 직접 골라보시겠어요?",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_19",
+      "Speaker": "Me",
+      "Content": "옷장 문 열기 (왼쪽)",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_13",
+      "Speaker": "OldMan",
+      "Content": "싫어, 내 옷이야. 저리 가!",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_20",
+      "Speaker": "Me",
+      "Content": "지금 입고 계신 옷이 마음에 드세요?",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_14",
+      "Speaker": "OldMan",
+      "Content": "그래. 우리 딸이 사준 거야.",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_21",
+      "Speaker": "Me",
+      "Content": "아, 정말 소중한 옷이군요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_15",
+      "Speaker": "Narration",
+      "Content": "어르신이 옷 갈아입기를 강하게 거부할 때, 요양보호사의 올바른 대처는 무엇일까요?",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_NARRATION_15_1",
+      "Speaker": "Narration",
+      "Content": "치매 환자가 불안하거나 거부할 때는 논리적 설득보다 감정 공감과 안심이 우선입니다.",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_NARRATION_16",
+      "Speaker": "Narration",
+      "Content": "어르신이 옷 갈아입기를 강하게 거부할 때, 요양보호사의 올바른 대처는 무엇일까요?",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_22",
+      "Speaker": "Me",
+      "Content": "그런데 저 옷도 따님이 사주신 거예요. 새것으로 갈아입으시면 얼른 빨아드릴게요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_17",
+      "Speaker": "Narration",
+      "Content": "1. \"그럼 그냥 입지 마세요.\"",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_OLDMAN_15",
+      "Speaker": "OldMan",
+      "Content": "그래? 그럼 얼른 빨아줘야 해요.",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_18",
+      "Speaker": "Narration",
+      "Content": "2. \"옷이 더러워서 갈아입으셔야 해요.\"",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_ME_23",
+      "Speaker": "Me",
+      "Content": "네, 걱정하지 마세요. 어르신께 소중한 옷이니까요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_NARRATION_19",
+      "Speaker": "Narration",
+      "Content": "3. \"괜찮아요 어르신, 이 옷도 따님이 사주신 새 옷이에요. 제가 도와드릴게요.\"",
+      "TypingSpeed": 0.03,
+      "Voice": "hero_001",
+      "Emotion": "Normal"
+    },
+    {
+      "TextID": "TXT_OLDMAN_16",
+      "Speaker": "OldMan",
+      "Content": "새 옷으로 갈아입은 모습",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_24",
+      "Speaker": "Me",
+      "Content": "새 옷 입으시니까 어르신 더 멋지시네요. 따님이 보시면 좋아하시겠어요.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_OLDMAN_17",
+      "Speaker": "OldMan",
+      "Content": "그래? 새 옷 입으니까 좋네.",
+      "TypingSpeed": 0.04,
+      "Voice": "npc_014",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_25",
+      "Speaker": "Me",
+      "Content": "오늘 식사도 직접 하시고, 화장실도 스스로 다녀오셨어요. 정말 잘하셨어요!",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    },
+    {
+      "TextID": "TXT_ME_26",
+      "Speaker": "Me",
+      "Content": "오늘 하루 일상생활 활동 정말 잘 참여해 주셔서 감사해요! 어르신 스스로 하실 수 있는 게 정말 많으세요. 수고하셨습니다.",
+      "TypingSpeed": 0.04,
+      "Voice": "",
+      "Emotion": "Calm"
+    }
+  ]
+}

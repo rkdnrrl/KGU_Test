@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60f6e66e59867f048a89c7931f0a3a18
+timeCreated: 1476388384
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Prefabs/PotMid.prefab
+  uploadId: 198961

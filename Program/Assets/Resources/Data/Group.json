@@ -1,0 +1,332 @@
+{
+  "items": [
+    {
+      "GroupID": "OLDMAN_10",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인 기상 연출",
+      "NextGroupID": "OLDMAN_20",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인이 일어나고 나레이션 음성과 텍스트가 동시에 출력됨"
+    },
+    {
+      "GroupID": "OLDMAN_20",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_30",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_30",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_40",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_40",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_50",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_50",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_60",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_60",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_70",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_70",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_80",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_80",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_90",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_90",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_100",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_100",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_110",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_110",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_120",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_120",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_130",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_130",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_140",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_140",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_150",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_150",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_160",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_160",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_170",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_170",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_180",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_180",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_190",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_190",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_200",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_200",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_210",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_210",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_220",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_220",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_230",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_230",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_240",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_240",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인 기상 연출",
+      "NextGroupID": "OLDMAN_250",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인이 일어나고 나레이션 음성과 텍스트가 동시에 출력됨"
+    },
+    {
+      "GroupID": "OLDMAN_250",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_260",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_260",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_270",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_270",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_280",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_280",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_290",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_290",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_300",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_300",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_310",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_310",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인 기상 연출",
+      "NextGroupID": "OLDMAN_320",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인이 일어나고 나레이션 음성과 텍스트가 동시에 출력됨"
+    },
+    {
+      "GroupID": "OLDMAN_320",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_330",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_330",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_340",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_340",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_350",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_350",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_360",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_360",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_370",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_370",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_380",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_380",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_390",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_390",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "다음 대사 대기",
+      "NextGroupID": "OLDMAN_400",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "다음 단계용 임시 그룹"
+    },
+    {
+      "GroupID": "OLDMAN_400",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_410",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    },
+    {
+      "GroupID": "OLDMAN_410",
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "GroupName": "노인의 질문",
+      "NextGroupID": "OLDMAN_420",
+      "WaitPolicy": "AnyBlocking",
+      "Memo": "노인의 질문"
+    }
+  ]
+}

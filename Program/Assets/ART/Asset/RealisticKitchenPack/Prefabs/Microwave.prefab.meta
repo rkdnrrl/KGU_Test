@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 415d80134ed423449baa293c16f74132
+timeCreated: 1476566754
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Prefabs/Microwave.prefab
+  uploadId: 198961

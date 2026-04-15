@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "CameraID": "CAMERA_1",
+      "Desc": "룸 1 서있는 카메라"
+    },
+    {
+      "CameraID": "CAMERA_2",
+      "Desc": "룸 1 물통 수저 카메라"
+    },
+    {
+      "CameraID": "CAMERA_3",
+      "Desc": "룸 1 침대 책상 카메라"
+    },
+    {
+      "CameraID": "CAMERA_4",
+      "Desc": "룸 1 수저 카메라"
+    },
+    {
+      "CameraID": "CAMERA_RESTROOM_1",
+      "Desc": "화장실 변기 카메라 1"
+    },
+    {
+      "CameraID": "CAMERA_RESTROOM_2",
+      "Desc": "화장실 세면대 카메라 2"
+    },
+    {
+      "CameraID": "CAMERA_RESTROOM_3",
+      "Desc": "화장실 칫솔 치약 카메라 3"
+    },
+    {
+      "CameraID": "CAMERA_ROOM2_1",
+      "Desc": "옷장"
+    }
+  ]
+}

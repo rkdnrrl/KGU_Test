@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "ScenarioID": "SCN_OLDMAN_INTRO",
+      "ScenarioName": "노인 첫 등장 이벤트",
+      "StartGroupID": "OLDMAN_010",
+      "Description": "노인이 누워있다가 일어나며 나레이션이 나오는 장면"
+    }
+  ]
+}

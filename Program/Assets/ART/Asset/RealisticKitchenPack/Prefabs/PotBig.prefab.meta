@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9aa8bbe6addf27c48bc49be87649063b
+timeCreated: 1476388382
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80277
+  packageName: Realistic Kitchen Pack!
+  packageVersion: 1.1
+  assetPath: Assets/RealisticKitchenPack/Prefabs/PotBig.prefab
+  uploadId: 198961

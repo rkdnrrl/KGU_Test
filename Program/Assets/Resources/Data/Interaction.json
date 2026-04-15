@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "InteractionID": "INT_SPEAKVOICE",
+      "TargetID": "INT_SPEAKVOICE",
+      "Params": "",
+      "Desc": ""
+    },
+    {
+      "InteractionID": "INT_EVENT_1",
+      "TargetID": "INT_EVENT_1",
+      "Params": "",
+      "Desc": "노인 클릭"
+    },
+    {
+      "InteractionID": "INT_EVENT_2",
+      "TargetID": "INT_EVENT_2",
+      "Params": "",
+      "Desc": "물컵 물통 클릭"
+    },
+    {
+      "InteractionID": "INT_EVENT_3",
+      "TargetID": "INT_EVENT_3",
+      "Params": "",
+      "Desc": "수저 클릭"
+    },
+    {
+      "InteractionID": "INT_EVENT_4",
+      "TargetID": "INT_EVENT_4",
+      "Params": "",
+      "Desc": "방 1에서 노인 클릭"
+    },
+    {
+      "InteractionID": "INT_EVENT_RESTROOM_1",
+      "TargetID": "INT_EVENT_RESTROOM_1",
+      "Params": "",
+      "Desc": "화장실에서 물 틀기"
+    },
+    {
+      "InteractionID": "INT_EVENT_RESTROOM_2",
+      "TargetID": "INT_EVENT_RESTROOM_2",
+      "Params": "",
+      "Desc": "화장실에서 물 잠그기"
+    },
+    {
+      "InteractionID": "INT_EVENT_RESTROOM_3",
+      "TargetID": "INT_EVENT_RESTROOM_3",
+      "Params": "",
+      "Desc": "양치컵 챙기기"
+    },
+    {
+      "InteractionID": "INT_EVENT_RESTROOM_4",
+      "TargetID": "INT_EVENT_RESTROOM_4",
+      "Params": "",
+      "Desc": "칫솔 챙기기"
+    },
+    {
+      "InteractionID": "INT_EVENT_RESTROOM_5",
+      "TargetID": "INT_EVENT_RESTROOM_5",
+      "Params": "",
+      "Desc": "치약 챙기기"
+    },
+    {
+      "InteractionID": "INT_EVENT_ROOM_1",
+      "TargetID": "INT_EVENT_ROOM_1",
+      "Params": "",
+      "Desc": "옷장 클릭"
+    },
+    {
+      "InteractionID": "INT_QUIZ_1",
+      "TargetID": "INT_QUIZ_1",
+      "Params": "",
+      "Desc": "퀴즈 1"
+    }
+  ]
+}
