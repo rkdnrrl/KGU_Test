@@ -9,7 +9,7 @@ public class QuizComponent : MonoBehaviour
 
     public void OnEnable()
     {
-        // ?댁쫰 ?몃뱾???앹꽦 ?쒖꽌? 臾닿??섍쾶 ?곌껐?섎룄濡?吏??援щ룆?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         StartCoroutine(DelayAction(() =>
         {
             QuizHandler.instance.OnActionPlay += Play;
@@ -30,7 +30,7 @@ public class QuizComponent : MonoBehaviour
     public void Play(TableDataItem data, QuizHandler handler)
     {
         this.handler = handler;
-        // ?댁쫰 ?꾨━?밴낵 ?곗씠??ID瑜?遺꾨━??UI 援먯껜 ???≪뀡 ?쒗듃 ?섏젙 踰붿쐞瑜?以꾩엯?덈떎.
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         TableDataItem quizData = TableManager.GetValue("Quiz", " QuizID", data.GetColumnName("Command"));
 
         if (quizData == null)
@@ -71,7 +71,7 @@ public class QuizComponent : MonoBehaviour
 
     public void Finish()
     {
-        // ?ㅼ젣 ?쒕굹由ъ삤 吏꾪뻾 ?좏샇???몃뱾?щ? ?듯빐 ?щ젮 怨듯넻 ?꾨즺 ?먮쫫???좎??⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         handler.FinishQuiz();
     }
 }

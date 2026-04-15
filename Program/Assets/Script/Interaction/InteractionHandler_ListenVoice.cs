@@ -558,11 +558,11 @@ public class InteractionHandler_ListenVoice : InteractionHandlerComponent
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
         if (!string.IsNullOrWhiteSpace(webglProxyBearerToken))
-            return webglProxyBearerToken;
+            return NormalizeAuthorizationToken(webglProxyBearerToken);
 
-        return apiKey;
+        return NormalizeAuthorizationToken(apiKey);
 #else
-        return apiKey;
+        return NormalizeAuthorizationToken(apiKey);
 #endif
     }
 
@@ -575,7 +575,21 @@ public class InteractionHandler_ListenVoice : InteractionHandlerComponent
 
     private bool HasAuthorization()
     {
-        return !string.IsNullOrWhiteSpace(GetWebGLBearerToken());
+        string token = GetWebGLBearerToken();
+        return !string.IsNullOrWhiteSpace(token);
+    }
+
+    private static string NormalizeAuthorizationToken(string rawToken)
+    {
+        if (string.IsNullOrWhiteSpace(rawToken))
+            return string.Empty;
+
+        string token = rawToken.Trim();
+
+        if (token.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
+            token = token.Substring("Bearer ".Length).Trim();
+
+        return token;
     }
 
     [Serializable]

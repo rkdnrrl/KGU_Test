@@ -12,7 +12,7 @@ public class PlayAnimation_Animancer : PlayAnimation_Default
 
         if (clip != null)
         {
-            // ?고???肄붾뱶瑜?嫄대뱶由ъ? ?딄퀬???붿옄?대꼫媛 ?꾪솚(釉붾젋?? ?ㅼ젙??議곗젙?????덇쾶 ?⑸땲??
+            // 런타임 코드를 건드리지 않고도 디자이너가 전환(블렌드) 설정을 조정할 수 있게 합니다.
             clipTransition = clip.Transition as ClipTransition;
         }
     }

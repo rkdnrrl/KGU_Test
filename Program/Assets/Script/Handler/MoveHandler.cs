@@ -13,7 +13,7 @@ public class MoveHandler : HandlerHelper
 
     public override void Execute(TableDataItem data)
     {
-        // ?대룞? ?≪뀡 ?먮낯 ?곗씠?곕? 洹몃?濡??곕뒗 ?몄씠 醫뚰몴 ?ъ씤???대쫫 愿由ъ뿉 ?좊━?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         OnMovePlay?.Invoke(data);
     }
 }

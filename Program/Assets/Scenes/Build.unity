@@ -3609,7 +3609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractionHandler_ListenVoice
   interactionID: INT_SPEAKVOICE
-  apiKey: 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
+  apiKey: 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
   model: gpt-4o-mini-transcribe
   language: 
   normalizeText: 1

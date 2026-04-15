@@ -15,7 +15,7 @@ public class CameraHandlerComponent : MonoBehaviour
 
     private void OnEnable()
     {
-        // 移대찓??而댄룷?뚰듃媛 ?붿뒪?⑥쿂蹂대떎 癒쇱? 耳쒖쭏 ???덉뼱??吏??援щ룆???꾩슂?⑸땲??
+        // 카메라 컴포넌트가 디스패처보다 먼저 켜질 수 있어서 지연 구독이 필요합니다.
         StartCoroutine(DelaySubscribe(() =>
         {
             CameraHandler.instance.OnCamera += MoveCamera;
@@ -37,12 +37,12 @@ public class CameraHandlerComponent : MonoBehaviour
 
         if (this.cameraID == targetCameraID)
         {
-            // ?寃?移대찓?쇰? 怨좎젙 ?곗꽑?쒖쐞濡??щ젮???щ윭 媛??移대찓??以??좏깮????긽 ?숈씪?댁쭛?덈떎.
+            // 타겟 카메라를 고정 우선순위로 올려야 여러 가상 카메라 중 선택이 항상 동일해집니다.
             virtualCamera.Priority = 10;
         }
         else
         {
-            // 鍮꾨???移대찓???곗꽑?쒖쐞瑜???떠???댁쟾 ?곹깭媛 ?⑥븘???섎せ??移대찓?쇨? ?좎??섎뒗 臾몄젣瑜?留됱뒿?덈떎.
+            // 비대상 카메라 우선순위를 낮춰야 이전 상태가 남아서 잘못된 카메라가 유지되는 문제를 막습니다.
             virtualCamera.Priority = -1;
         }
     }

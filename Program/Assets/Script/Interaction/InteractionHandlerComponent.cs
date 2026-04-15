@@ -12,7 +12,7 @@ public class InteractionHandlerComponent : MonoBehaviour
 
     protected virtual void OnEnable()
     {
-        // ?몃뱾???깃????앹꽦 ?쒖꽌 ?곹뼢??諛쏆? ?딅룄濡?肄붾（?댁뿉??援щ룆?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         subscribeCoroutine = StartCoroutine(DelaySubscribe());
     }
 
@@ -40,7 +40,7 @@ public class InteractionHandlerComponent : MonoBehaviour
         if (isSubscribed || InteractionHandler.instance == null)
             return;
 
-        // 以묐났 援щ룆??留됱븘 媛숈? ?명꽣?숈뀡????踰??ㅽ뻾?섎뒗 臾몄젣瑜??덈갑?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         InteractionHandler.instance.OnInteraction += HandleInteractionEvent;
         isSubscribed = true;
     }
@@ -64,7 +64,7 @@ public class InteractionHandlerComponent : MonoBehaviour
         if (!string.IsNullOrEmpty(interactionID) &&
             !string.Equals(interactionID, targetID, StringComparison.OrdinalIgnoreCase))
         {
-            // 媛쒕퀎 而댄룷?뚰듃媛 ?먯떊??TargetID留?泥섎━?섍쾶 ?댁꽌 ?????ㅼ쨷 ?명꽣?숈뀡 異⑸룎??留됱뒿?덈떎.
+            // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
             return;
         }
 
@@ -78,7 +78,7 @@ public class InteractionHandlerComponent : MonoBehaviour
 
     public virtual void InteractionFinish()
     {
-        // 醫낅즺 ?좏샇瑜?InteractionHandler濡?紐⑥븘??洹몃９ 吏꾪뻾 洹쒖튃????怨녹뿉???좎??⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         if (InteractionHandler.instance != null)
             InteractionHandler.instance.InteractionFinish();
     }

@@ -11,7 +11,7 @@ public class DoComponent_Reset : MonoBehaviour
 
             if(doco != null)
             {
-                // ?붿옄?대꼫媛 ?몃━嫄곕줈 由ъ뀑???몄텧???뚮룄 ??긽 媛숈? 珥덇린??寃곌낵瑜?蹂댁옣?섍린 ?꾪빐?쒖엯?덈떎.
+                // 디자이너가 트리거로 리셋을 호출할 때도 항상 같은 초기화 결과를 보장하기 위해서입니다.
                 item.gameObject.SetActive(false);
             }
         }

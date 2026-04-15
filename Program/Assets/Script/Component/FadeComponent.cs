@@ -18,7 +18,7 @@ public class FadeComponent : MonoBehaviour
 
     private void Awake()
     {
-        // ?꾨━??蹂?뺣쭏??李몄“瑜??????ｌ? ?딆븘???숈옉?섎룄濡??먮룞 ?곌껐?⑸땲??
+        // 프리팹 변형마다 참조를 둘 다 넣지 않아도 동작하도록 자동 연결합니다.
         if (fadeImage == null && fadeUI != null)
             fadeImage = fadeUI.GetComponent<Image>();
 
@@ -70,7 +70,7 @@ public class FadeComponent : MonoBehaviour
             return;
         }
 
-        // ?④? ?곹깭?먯꽌 ?섏씠?쒕? ?쒖옉????泥??꾨젅??源쒕묀?꾩쓣 以꾩씠湲??꾪빐 癒쇱? ?쒖꽦?뷀빀?덈떎.
+        // 숨김 상태에서 페이드를 시작할 때 첫 프레임 깜빡임을 줄이기 위해 먼저 활성화합니다.
         if (fadeUI != null)
             fadeUI.SetActive(true);
 
@@ -97,7 +97,7 @@ public class FadeComponent : MonoBehaviour
         SetAlphaImmediate(targetAlpha);
 
         if (hideAfterFinish && Mathf.Approximately(targetAlpha, 0f) && fadeUI != null)
-            // ?щ챸 ?ㅻ쾭?덉씠媛 ?대┃??媛濡쒖콈??臾몄젣瑜?留됯린 ?꾪빐 ?섏씠?쒖씤 ?꾨즺 ??鍮꾪솢?깊솕?⑸땲??
+            // 투명 오버레이가 클릭을 가로채는 문제를 막기 위해 페이드인 완료 후 비활성화합니다.
             fadeUI.SetActive(false);
 
         fadeCoroutine = null;
@@ -105,7 +105,7 @@ public class FadeComponent : MonoBehaviour
 
     public void OnEnable()
     {
-        // ?고????앹꽦 ?쒖꽌 李⑥씠濡??명븳 援щ룆 ?덉씠?ㅻ? 以꾩씠湲??꾪빐 吏??援щ룆?⑸땲??
+        // 런타임 생성 순서 차이로 인한 구독 레이스를 줄이기 위해 지연 구독합니다.
         StartCoroutine(DelayAction(() =>
         {
             ActionHandler.instance.OnActionPlay += Play;
@@ -124,7 +124,7 @@ public class FadeComponent : MonoBehaviour
     }
     public void Play(TableDataItem data)
     {
-        // ?쒕굹由ъ삤 ?쒗듃??紐낅졊 臾몄옄?대쭔 諛붽퓭???곗텧 ?쒖꽌瑜?議곗젙?????덈룄濡?臾몄옄??湲곕컲?쇰줈 遺꾧린?⑸땲??
+        // 시나리오 시트의 명령 문자열만 바꿔도 연출 순서를 조정할 수 있도록 문자열 기반으로 분기합니다.
         if(data.GetColumnName("Command") == "FadeIn")
         {
             FadeIn();

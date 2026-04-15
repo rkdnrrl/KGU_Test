@@ -14,7 +14,7 @@ public class InteractionHandlerComponent_Grab : InteractionHandlerComponent
     protected override void OnEnable()
     {
         base.OnEnable();
-        // ?꾩씠??履??낅젰 ?대깽?몃? 援щ룆??UI/?낅젰 援ы쁽怨??곹샇?묒슜 ?꾨즺 議곌굔??遺꾨━?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         MonoItem_Interaction.OnTouch += HandleItemGrabbed;
     }
 
@@ -45,7 +45,7 @@ public class InteractionHandlerComponent_Grab : InteractionHandlerComponent
 
         if (remainingItemIDs.Count == 0)
         {
-            // ?ㅼ젙 ?꾨씫 ?곹깭?먯꽌 ?명꽣?숈뀡???곴뎄 ?湲고븯吏 ?딅룄濡?利됱떆 醫낅즺?⑸땲??
+            // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
             Debug.LogWarning("No required grab items configured. Finishing interaction immediately.");
             InteractionFinish();
         }
@@ -81,7 +81,7 @@ public class InteractionHandlerComponent_Grab : InteractionHandlerComponent
         if (index < 0)
             return;
 
-        // ?숈씪 ID瑜??щ윭 踰??붽뎄?????덉뼱 移댁슫??諛⑹떇(泥???ぉ 1媛??쒓굅)?쇰줈 泥섎━?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         remainingItemIDs.RemoveAt(index);
 
         if (remainingItemIDs.Count == 0)

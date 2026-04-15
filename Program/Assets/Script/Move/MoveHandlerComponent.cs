@@ -8,7 +8,7 @@ public class MoveHandlerComponent : MonoBehaviour
 
     public void OnEnable()
     {
-        // ?대룞 ?몃뱾??珥덇린???쒖꽌媛 ?щ씪??援щ룆 ?꾨씫???녿룄濡?吏???곌껐?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         StartCoroutine(DelayAction(() =>
         {
             MoveHandler.instance.OnMovePlay += Play;
@@ -30,7 +30,7 @@ public class MoveHandlerComponent : MonoBehaviour
 
         if(characterID == data.GetColumnName("Target"))
         {
-            // ?ъ씤?몃? ???ㅻ툕?앺듃濡?愿由ы븯硫??묒??먯꽌???대쫫留?諛붽퓭???꾩튂瑜??ы솢?⑺븷 ???덉뒿?덈떎.
+            // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
             MovePosTransform[] mptList = GameObject.FindObjectsByType<MovePosTransform>();
 
             foreach (var item in mptList)

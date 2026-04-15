@@ -10,7 +10,7 @@ public class AnimationHandlerComponent : MonoBehaviour
 
     public void OnEnable()
     {
-        // ???쒖옉 ???몃뱾??珥덇린???쒖꽌媛 怨좎젙???꾨땲?댁꽌, 吏??援щ룆?쇰줈 null ?덉씠?ㅻ? 留됱뒿?덈떎.
+        // 씬 시작 시 핸들러 초기화 순서가 고정이 아니어서, 지연 구독으로 null 레이스를 줄입니다.
         StartCoroutine(DelayAction(() =>
         {
             AnimationHandler.instance.OnAnimationPlay += Play;
@@ -29,7 +29,7 @@ public class AnimationHandlerComponent : MonoBehaviour
     }
     public void Play(TableDataItem data)
     {
-        // 罹먮┃?곕쭏??而댄룷?뚰듃媛 遺숆린 ?뚮Ц?? ????꾪꽣媛 ?놁쑝硫??ㅻⅨ 罹먮┃???좊땲硫붿씠?섍퉴吏 ?ъ깮?????덉뒿?덈떎.
+        // 캐릭터마다 컴포넌트가 붙기 때문에, 대상 필터가 없으면 다른 캐릭터 애니메이션까지 재생될 수 있습니다.
         if (characterID != data.GetColumnName("CharacterID"))
             return;
 
@@ -39,7 +39,7 @@ public class AnimationHandlerComponent : MonoBehaviour
 
     IEnumerator DelayAction(Action action)
     {
-        // ?ㅻ툕?앺듃 ?쒖꽦???쒖꽌媛 諛붾뚯뼱??援щ룆 ?ㅽ뙣 ?놁씠 ?숈옉?섎룄濡??湲고빀?덈떎.
+        // 오브젝트 활성화 순서가 바뀌어도 구독 실패 없이 동작하도록 대기합니다.
         while (AnimationHandler.instance == null)
         {
             yield return null;

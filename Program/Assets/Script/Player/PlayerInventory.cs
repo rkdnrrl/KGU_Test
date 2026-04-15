@@ -16,7 +16,7 @@ public class PlayerInventory : MonoBehaviour
 
     public void AddItem(Item item)
     {
-        // ?띾뱷 ?대깽?몃? ?쒖꽌?濡?蹂댁〈?댁빞 ?곹샇?묒슜 寃利????꾨씫 ?щ? 異붿쟻???쎌뒿?덈떎.
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         itemlist.Add(item);
     }
 
@@ -28,7 +28,7 @@ public class PlayerInventory : MonoBehaviour
         {
             if(ite.name == item.name)
             {
-                // 留덉?留됱쑝濡?李얠? ??ぉ???쒓굅??以묐났 ?뚯? ?곹솴?먯꽌??理쒖냼????媛쒕쭔 李④컧?섍쾶 ?⑸땲??
+                // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
                 getItem = ite;
             }
         }

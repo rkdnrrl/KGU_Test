@@ -17,7 +17,7 @@ public class CurGroupID : MonoBehaviour
 
         if(item != null)
         {
-            // 遺꾧린???쒕굹由ъ삤 ?붾쾭源????꾩옱 洹몃９??諛붾줈 ?뺤씤?????덉뼱 ?먮쫫 異붿쟻???ъ썙吏묐땲??
+            // 분기형 시나리오 디버깅 시 현재 그룹을 바로 확인할 수 있어 흐름 추적이 쉬워집니다.
             text.text = item.GetColumnName("GroupID");
         }
         

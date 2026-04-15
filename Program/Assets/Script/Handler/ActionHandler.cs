@@ -14,7 +14,7 @@ public class ActionHandler : HandlerHelper
 
     public override void Execute(TableDataItem data)
     {
-        // ?≪뀡 ?먮낯 ?됱쓣 洹몃?濡??꾨떖???щ윭 ?쒕툕?쒖뒪?쒖씠 異붽? 議고쉶 ?놁씠 ?숈떆??諛섏쓳?????덇쾶 ?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         OnActionPlay?.Invoke(data);
 
     }

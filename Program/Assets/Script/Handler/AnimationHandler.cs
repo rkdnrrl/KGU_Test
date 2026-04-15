@@ -15,7 +15,7 @@ public class AnimationHandler : HandlerHelper
 
     public override void Execute(TableDataItem data)
     {
-        // ?쒕굹由ъ삤 ?됱뿉?쒕뒗 ?ㅻ쭔 ?곌퀬 ?ㅼ젣 ?좊땲硫붿씠??留ㅽ븨? 蹂꾨룄 ?뚯씠釉붿뿉??愿由ы빐 ?ъ궗?⑹꽦???믪엯?덈떎.
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         TableDataItem aniData = TableManager.GetValue("Animation", "AnimID", data.GetColumnName("Command"));
 
         OnAnimationPlay?.Invoke(aniData);

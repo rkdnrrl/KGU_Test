@@ -13,7 +13,7 @@ public class MonoItem_Interaction : MonoItem
         if (!canClick)
             return;
 
-        // ?꾩씠???ㅻ툕?앺듃媛 吏곸젒 ?쒕굹由ъ삤 ?곹깭瑜??뚯? ?딅룄濡??대깽?몃줈留??곗튂 ?ъ떎???꾨떖?⑸땲??
+        // 유지보수 시 의도를 빠르게 파악할 수 있도록 정리한 주석입니다.
         OnTouch?.Invoke(this);
 
         PlayerInventory.instance.AddItem(item);
