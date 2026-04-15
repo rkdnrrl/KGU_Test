@@ -3609,13 +3609,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractionHandler_ListenVoice
   interactionID: INT_SPEAKVOICE
-  apiKey: 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
+  apiKey: 
   model: gpt-4o-mini-transcribe
   language: 
   normalizeText: 1
   normalizeModel: gpt-4o-mini
-  webglTranscriptionUrl: 
-  webglNormalizeUrl: 
+  webglTranscriptionUrl: https://nursingxr-kgu.rkdnrrl1.workers.dev/transcribe
+  webglNormalizeUrl: https://nursingxr-kgu.rkdnrrl1.workers.dev/normalize
   webglProxyBearerToken: 
   sampleRate: 16000
   maxRecordingSeconds: 20

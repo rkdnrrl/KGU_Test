@@ -121,9 +121,9 @@ public class InteractionHandler_ListenVoice : InteractionHandlerComponent
             return;
         }
 
-        if (string.IsNullOrWhiteSpace(token))
+        if (!HasAuthorization(endpoint))
         {
-            Debug.LogError("Authorization is empty. Set apiKey or webglProxyBearerToken.");
+            Debug.LogError("Authorization is empty for this endpoint. Set apiKey or webglProxyBearerToken.");
             return;
         }
 
@@ -207,10 +207,16 @@ public class InteractionHandler_ListenVoice : InteractionHandlerComponent
         }
 
 #if UNITY_WEBGL && !UNITY_EDITOR
-        string token = GetWebGLBearerToken();
-        if (string.IsNullOrWhiteSpace(token))
+        string endpoint = GetTranscriptionUrl();
+        if (string.IsNullOrWhiteSpace(endpoint))
         {
-            Debug.LogError("Authorization is empty. Set apiKey or webglProxyBearerToken.");
+            Debug.LogError("Transcription URL is empty.");
+            return;
+        }
+
+        if (!HasAuthorization(endpoint))
+        {
+            Debug.LogError("Authorization is empty for this endpoint. Set apiKey or webglProxyBearerToken.");
             return;
         }
 
@@ -395,9 +401,9 @@ public class InteractionHandler_ListenVoice : InteractionHandlerComponent
             yield break;
         }
 
-        if (!HasAuthorization())
+        if (!HasAuthorization(transcriptionUrl))
         {
-            Debug.LogError("Authorization is empty. Set apiKey or webglProxyBearerToken.");
+            Debug.LogError("Authorization is empty for this endpoint. Set apiKey or webglProxyBearerToken.");
             isTranscribing = false;
             yield break;
         }
@@ -439,7 +445,7 @@ public class InteractionHandler_ListenVoice : InteractionHandlerComponent
         if (string.IsNullOrWhiteSpace(normalizeUrl))
             yield break;
 
-        if (!HasAuthorization())
+        if (!HasAuthorization(normalizeUrl))
             yield break;
 
         string dominantLanguageCode = DetectDominantLanguageCode(recognizedText);
@@ -532,26 +538,18 @@ public class InteractionHandler_ListenVoice : InteractionHandlerComponent
 
     private string GetTranscriptionUrl()
     {
-#if UNITY_WEBGL && !UNITY_EDITOR
         if (!string.IsNullOrWhiteSpace(webglTranscriptionUrl))
             return webglTranscriptionUrl;
 
         return "https://api.openai.com/v1/audio/transcriptions";
-#else
-        return "https://api.openai.com/v1/audio/transcriptions";
-#endif
     }
 
     private string GetNormalizeUrl()
     {
-#if UNITY_WEBGL && !UNITY_EDITOR
         if (!string.IsNullOrWhiteSpace(webglNormalizeUrl))
             return webglNormalizeUrl;
 
         return "https://api.openai.com/v1/chat/completions";
-#else
-        return "https://api.openai.com/v1/chat/completions";
-#endif
     }
 
     private string GetWebGLBearerToken()
@@ -573,10 +571,21 @@ public class InteractionHandler_ListenVoice : InteractionHandlerComponent
             req.SetRequestHeader("Authorization", "Bearer " + token);
     }
 
-    private bool HasAuthorization()
+    private bool HasAuthorization(string requestUrl)
     {
         string token = GetWebGLBearerToken();
-        return !string.IsNullOrWhiteSpace(token);
+        if (!string.IsNullOrWhiteSpace(token))
+            return true;
+
+        return IsCustomProxyUrl(requestUrl);
+    }
+
+    private static bool IsCustomProxyUrl(string requestUrl)
+    {
+        if (string.IsNullOrWhiteSpace(requestUrl))
+            return false;
+
+        return requestUrl.IndexOf("api.openai.com", StringComparison.OrdinalIgnoreCase) < 0;
     }
 
     private static string NormalizeAuthorizationToken(string rawToken)

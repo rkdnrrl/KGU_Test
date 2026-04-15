@@ -110,11 +110,14 @@ mergeInto(LibraryManager.library, {
         }
         form.append("file", blob, "speech.webm");
 
+        var headers = {};
+        if (bearerToken && bearerToken.trim().length > 0) {
+          headers["Authorization"] = "Bearer " + bearerToken.trim();
+        }
+
         var response = await fetch(endpoint, {
           method: "POST",
-          headers: {
-            "Authorization": "Bearer " + bearerToken
-          },
+          headers: headers,
           body: form
         });
 
